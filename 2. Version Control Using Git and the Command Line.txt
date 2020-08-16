@@ -1,0 +1,8 @@
+to initialize a new git repository just type (git init) inside gitbash.
+now a .git file has been created and with using (ls) command we can't see it but there is a command for seeing secret files, which is (ls -a), and using that we could see a .git file.
+In order to track the changes of chapter1 file we need to add that file to a staging area and that is an intermidate place that you can pick and choose which of your files you want to commit. to see what's in your staging area you must use this command (git status).
+In order to add it to staging area and start tracking changes in it, we have to use the command (git add): (git add chapter1.txt)
+if we type git status again we will see that that file is added and its name is in green. so it's in the staging area and it's ready to be commited.
+to commit our file under version cotrol use this command (git commit -m) and we use -m flag to add a commit message which is very very important, it's something that helps you keep track of what chaneges you made in each commit, so when you make a new save point you will say ehat changes you made between the last safe point and this safe point, in our case the command will be (git commit -m "Complete Chapter 1") and it's good practice to write the message in the present tense.
+and using this command you can see the files that were comitted (git log).
+If you have a lot of files it's better to do this instead of doing them one by one. (git add .) this command will add every thing inside the directory that we are in to the staging area.
