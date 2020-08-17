@@ -1,0 +1,7 @@
+If we had version 1 and 2, so 2 commits are made into our local repository and at this poit we realize that we want ot try out something different or build a new feature,  Instead of messing with the master branch we could create a new branch and start comminting to this new branch, and simulatanously we could add new commits to our master branch and write code in our main project. and if in the future we dicided that we want the the new branch to the main project our master branch we could use a merge request.
+Sometimes you may are working on new features or fixing buggs and you don't want to add that to your main branch because it may ruin your main code, so it's better to create a new branch
+to create a new branch (git branch "name of the new branch"), and to check how many branches we have (git branch), and after (git branch) the * shows you on which branch you currently are on.
+We can switch to the other brach using (git checkout "name of the branch").
+and if we want to add the changes to the new branch first we need to add them to the staging area (add .) and then (git command -m "modify chapter 1 and 2 to have alien plot").
+if we do (git log) we could see that we have commits on our master branch and our new branch.
+when you are confused where you are you could (git branch) and now if we go to our master branch (git checkout master), you could see that our master brach is unchanged.
