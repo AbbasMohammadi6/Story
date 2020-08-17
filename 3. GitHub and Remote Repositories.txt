@@ -1,0 +1,11 @@
+Hit the plus sign on the right hand side on git hub and selesct New repository, fill out the forms.
+the first thing to do is to tell our locla repository that we created a remote repository somewhereon the internet and i want to transfer all of my commits over there, the command that we are going to use is (git remote add origin), origin is simply the name of your remote and you can call it anything you want, but highly recommended that you keep the name origin and the reason is most programers are used to conventional naming.
+so after (git remote add origin) we have to paste the url of our remote repositoryon github and hit enter.
+git remote add origin https://github.com/AbbasMohammadi6/Story.git
+now that remote is created and we can push our local repository onto our remote repository which is called origin.
+git push -u origin master
+and what this line of code does is that it pushes your local repository to the remote repository using the u flag or the u option which basically links up your remote and local repository. and thatn we could push it towards the remote that is called origin and we are going to the branch that called master. the master branch is the main branch.
+origin: Name of Remote
+master: Name of Branch
+when you done a few commits than you have this timeline of commits and this is called your master branch. so the master branch is your main branch of comitts or save points and it is sequential and this is where your main progress is saved or commited.
+in our case the local repository is the .git file that we have and the remote repositoryid GitHub. the command (git push) push all of our commits to our remote repository or GitHub.

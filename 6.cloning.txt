@@ -1,0 +1,4 @@
+working directory-> staging area->local repository->remote
+In the ladt lesson we looked at how we can push our local repository to a remote repository on github and cloning a remote repository is to pull it in your local machine.
+The command would be git clone and that is a way for you to pull down all of the commits and all of the versions of a particular repository and to store the files inside your working directory.
+IN order to clone a repository click on the green button (code) and and copy the url, go to your desktop or whenever you want and type this command (git clone "the url that you copied"), and hit enter.
